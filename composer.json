@@ -1,6 +1,6 @@
 {
     "name": "symfony-flex-init/web-server",
-    "description": "Composer init script for symfony/skeleton with Web Server ",
+    "description": "Composer init script for symfony/skeleton with Web Server",
     "type": "project",
     "license": "MIT",
     "require": {},
