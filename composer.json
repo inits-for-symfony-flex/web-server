@@ -1,0 +1,22 @@
+{
+    "name": "symfony-flex-init/web-server",
+    "description": "Symfony Flex and Skeleton Demo with Web Server ",
+    "type": "project",
+    "license": "MIT",
+    "require": {},
+    "suggest": {
+        "symfony/skeleton": "Used by script symfony-skeleton",
+        "symfony/web-server-bundle": "Used by script symfony-skeleton"
+    },
+    "scripts-descriptions": {
+        "symfony-skeleton": "Create project using symfony/skeleton"
+    },
+    "scripts": {
+        "symfony-skeleton": [
+            "@composer create-project --no-install symfony/skeleton",
+            "@composer --working-dir=skeleton config bin-dir bin",
+            "@composer --working-dir=skeleton install",
+            "@composer --working-dir=skeleton require symfony/web-server-bundle --dev"
+        ]
+    }
+}
